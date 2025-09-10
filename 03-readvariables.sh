@@ -2,6 +2,8 @@
 
 # using read variable it takes basic input
 
+##Read a value at runtime in shell scripting
+
 echo $0
 
 echo $SHELL
