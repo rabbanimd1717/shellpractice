@@ -8,8 +8,7 @@ echo $1
 
 echo $2
 
-echo "ENTER YOUR NAME:" name
 
-read -s -p name
+read -s -p "ENTER YOUR NAME:" name
 
 echo "enter your name with secretly entered: $name"
