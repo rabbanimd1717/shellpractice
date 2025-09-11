@@ -7,7 +7,7 @@ USER_ID=$(id -u) # in shell scripting to run the linux commands in shell scripti
 if [ $USER_ID -eq 0 ]
 then
     echo "Need to give super user permission to access or installing the packages"
-    exit 1 #manually exit if error comes
+    #exit 1 #manually exit if error comes
 else
     echo "This is super user and proceed further"
 fi
