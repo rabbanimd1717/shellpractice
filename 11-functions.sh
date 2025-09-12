@@ -31,10 +31,10 @@ fi
 
 FUN_NAME 
 
-dnf install mysql1 -y
+dnf install mysql -y
 PACKAGES $? "INSTALLATION OF MYSQL"
 
-dnf install git -y 
+dnf install gitt -y 
 PACKAGES $? "INSTALLATION OF GIT"
 
 echo "BOTH PACKAGES ARE INSTALLED"
