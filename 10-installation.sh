@@ -12,7 +12,7 @@ else
     echo "This is super user and proceed further"
 fi
 
-dnf install mysql1 -y
+dnf install mysql -y
 
 if [ $? -eq 0 ]
 then
@@ -23,3 +23,17 @@ else
 fi
 
 echo "MYSQL installed"
+
+echo $?
+
+dnf install git -y
+
+if [ $? -ne 0 ]
+then
+    echo "GIT INSTALLATION IS FAILURE"
+    exit 1
+else
+    echo "GIT INSTALLATION IS SUCCESS"
+fi 
+
+echo "GIT IS INSTALLED"
