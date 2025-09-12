@@ -31,7 +31,7 @@ fi
 
 FUN_NAME 
 
-dnf install mysql -y
+dnf install mysql1 -y
 PACKAGES $? "INSTALLATION OF MYSQL"
 
 dnf install git -y 
