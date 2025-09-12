@@ -21,7 +21,7 @@ PACKAGES(){
     fi
 }
 
-if [ USER_ID -ne 0 ]
+if [ $USER_ID -ne 0 ]
 then 
     echo "THIS IS NOT SUPER USER PLEASE CHECK"
     exit 1
